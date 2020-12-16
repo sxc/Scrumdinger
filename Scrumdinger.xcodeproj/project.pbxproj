@@ -65,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				34B4BE8725899DE600506637 /* Views */,
-				34B4BE8125899D5200506637 /* Color+Codable.swift */,
 				3419DC8225887EAC00451400 /* ScrumdingerApp.swift */,
 				3419DC8425887EAC00451400 /* MeetingView.swift */,
 				3419DC8625887EB100451400 /* Assets.xcassets */,
@@ -87,6 +86,7 @@
 		34518E4625888FAB00A05C8F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				34B4BE8125899D5200506637 /* Color+Codable.swift */,
 				34518E3E258888DC00A05C8F /* DailyScrum.swift */,
 			);
 			path = Models;
