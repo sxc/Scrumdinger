@@ -2,19 +2,16 @@
 //  ScrumdingerApp.swift
 //  Scrumdinger
 //
-//  Created by Xiaochun Shen on 2020/12/15.
+//  Created by Xiaochun Shen on 2021/7/14.
 //
 
 import SwiftUI
 
 @main
 struct ScrumdingerApp: App {
-    @State private var scrums = DailyScrum.data
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ScrumsView(scrums: $scrums)
-            }
+            ContentView()
         }
     }
 }
